@@ -1,4 +1,5 @@
-export type Page = 'landing' | 'disease-detection' | 'farming-assistant' | 'weather-dashboard' | 'sustainability' | 'climate-simulation';
+export type Page = 'landing' | 'disease-detection' | 'farming-assistant' | 'weather-dashboard';
+export type LanguageCode = 'en' | 'hi' | 'te';
 
 export interface DiseaseResult {
   name: string;
